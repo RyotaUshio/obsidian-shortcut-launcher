@@ -72,6 +72,7 @@ export class LauncherModal extends Modal {
 			.addDropdown((dropdown) =>
 				dropdown
 					.addOptions({
+						"None": "None",
 						"Selected Text": "Selected Text",
 						"Selected Link/Embed Contents":
 							"Selected Link/Embed Contents",
